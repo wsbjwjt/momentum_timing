@@ -1,0 +1,47 @@
+# === 用户指定 ===
+README新手上手指南.pdf
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# === 虚拟环境 ===
+.venv/
+venv/
+env/
+ENV/
+
+# === 包管理 ===
+uv.lock
+
+# === IDE ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === 操作系统 ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === 运行时输出 ===
+output/
+.data_cache/
+
+# === 日志与环境 ===
+*.log
+.env
+.env.local
+
+# === Jupyter ===
+.ipynb_checkpoints/
+
+# === 临时文件 ===
+tmp/
+temp/
+*.tmp
