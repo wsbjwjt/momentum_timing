@@ -63,12 +63,27 @@
 
 ## 7. 安装与快速开始
 
+### 方式一：pip
+
 ```bash
 # 安装依赖
-pip install baostock pandas numpy scikit-learn plotly tqdm tenacity
+pip install -r requirements.txt
 
 # 一键回测
 python run_backtest.py --mode quick
+
+# 查看结果
+open output/backtest_dashboard.html
+```
+
+### 方式二：uv（推荐）
+
+```bash
+# 同步依赖（根据 pyproject.toml 自动创建 .venv）
+uv sync
+
+# 一键回测
+uv run python run_backtest.py --mode quick
 
 # 查看结果
 open output/backtest_dashboard.html
