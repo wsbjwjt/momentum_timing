@@ -116,6 +116,10 @@ open output/backtest_dashboard.html
 | 最大回撤 | ~-46% | ~-72% |
 | 胜率 | ~62% | - |
 
+![回测仪表盘 - 绩效概览](assets/01.png)
+
+![回测仪表盘 - 图表分析](assets/02.png)
+
 ---
 
 ## 9. 项目结构
